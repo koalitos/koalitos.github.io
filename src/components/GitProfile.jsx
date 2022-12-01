@@ -183,10 +183,6 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         skills={sanitizedConfig.skills}
                       />
-                      {/* <Education
-                        loading={loading}
-                        education={sanitizedConfig.education}
-                      /> */}
                     </div>
                   </div>
                   <div className="lg:col-span-2 col-span-1">
@@ -197,19 +193,10 @@ const GitProfile = ({ config }) => {
                         github={sanitizedConfig.github}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
-                      {/* <Blog
-                        loading={loading}
-                        googleAnalytics={sanitizedConfig.googleAnalytics}
-                        blog={sanitizedConfig.blog}
-                      /> */}
                       <Education
                         loading={loading}
                         education={sanitizedConfig.education}
                       />
-                      {/* <Skill
-                        loading={loading}
-                        skills={sanitizedConfig.skills}
-                      /> */}
                     </div>
                   </div>
                 </div>
