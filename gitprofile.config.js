@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'koalitos', // Your GitHub org/user name. (Required)
     sortBy: 'updated', // stars | updated
-    limit: 4, // How many projects to display.
+    limit: 2, // How many projects to display.
     exclude: {
       forks: false,
       projects: ['teste', 'teste-next', 'koalitos', 'Money-front', 'koalitos.github.io'],
