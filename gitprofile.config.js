@@ -3,11 +3,11 @@
 const config = {
   github: {
     username: 'koalitos', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 2, // How many projects to display.
+    sortBy: 'updated', // stars | updated
+    limit: 4, // How many projects to display.
     exclude: {
       forks: false,
-      projects: ['teste', 'teste-next', 'koalitos'],
+      projects: ['teste', 'teste-next', 'koalitos', 'Money-front', 'koalitos.github.io'],
     },
   },
   social: {
@@ -48,9 +48,16 @@ const config = {
   experiences: [
     {
       company: 'Porto Seguro',
-      position: 'Software engineer III front-end',
-      from: 'Dez 2022',
+      position: 'Tech lead',
+      from: 'Jul 2023',
       to: 'Current',
+      companyLink: 'https://www.portoseguro.com.br/',
+    },
+    {
+      company: 'Porto Seguro',
+      position: 'Software engineer front-end Sênior',
+      from: 'Dez 2022',
+      to: 'Jul 2023',
       companyLink: 'https://www.portoseguro.com.br/',
     },
     {
@@ -69,6 +76,12 @@ const config = {
     },
   ],
   education: [
+    {
+      institution: 'Dio',
+      degree: 'Integrando o ChatGPT com Node e React',
+      from: '2023',
+      to: '2023',
+    },
     {
       institution: 'Udemy',
       degree: 'React: Do Zero a Maestria (c/ hooks, router, API, Projetos)',
