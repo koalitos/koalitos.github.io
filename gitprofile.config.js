@@ -29,6 +29,7 @@ const config = {
     'PHP',
     'JavaScript',
     'React.js',
+    'Vue.Js',
     'Node.js',
     'MySQL',
     'MongoDb',
