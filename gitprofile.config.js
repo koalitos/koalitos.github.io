@@ -19,8 +19,8 @@ const config = {
     behance: '',
     stackoverflow: '', // format: userid/username
     website: 'https://koalitos.github.io',
-    phone: '+55 (11) 96921-2667',
-    email: 'lamaral.pro@gmail.com',
+    phone: '',
+    email: '',
   },
   resume: {
     fileUrl: 'Profile.pdf', // Empty fileUrl will hide the `Download Resume` button.
